@@ -1,0 +1,5 @@
+$wshell = New-Object -ComObject WScript.Shell
+
+$wshell.Popup("AE COWBOY VIADO")
+
+$wshell.Run("Notepad")
